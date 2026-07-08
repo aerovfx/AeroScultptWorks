@@ -3,7 +3,9 @@
 *Read this in: [English](#english) | [Tiếng Việt](#tiếng-việt)*
 
 [![Free during development](https://img.shields.io/badge/Price-Free_during_development-brightgreen.svg)](#-support-the-project--sponsorship)
-[![Sponsor](https://img.shields.io/badge/❤-Become_a_Sponsor-ff69b4.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=thegioithu2@gmail.com&item_name=Sponsor+ABrush+Development)
+[![Sponsor via PayPal](https://img.shields.io/badge/❤-Sponsor_$5_via_PayPal-ff69b4.svg)](https://www.paypal.com/donate/?business=thegioithu2%40gmail.com&item_name=Sponsor+ABrush+Development&currency_code=USD&amount=5)
+
+**Direct sponsor link / Link tài trợ trực tiếp:** [paypal.com/donate — Sponsor ABrush ($5)](https://www.paypal.com/donate/?business=thegioithu2%40gmail.com&item_name=Sponsor+ABrush+Development&currency_code=USD&amount=5)
 
 ---
 
@@ -64,18 +66,22 @@ Professional 3D sculpting tools typically cost hundreds of dollars per license. 
 *   📦 Code signing certificates, build infrastructure, and distribution costs
 *   📚 Documentation, tutorials, and community support
 
-**Ways to sponsor:**
+**How much? Just $5.** If you use ABrush, a one-time $5 sponsorship is all we ask. Larger or recurring contributions are welcome but never required.
 
 | Tier | Suggested amount | Recognition |
 |---|---|---|
-| ☕ Coffee Supporter | $5 (one-time) | Our sincere gratitude |
-| 🛠️ Toolmaker | $10 (one-time) | Name listed in release notes *(optional)* |
+| ☕ **Standard Sponsor** (recommended) | **$5 (one-time)** | Our sincere gratitude |
 | 🚀 Project Backer | Custom amount | Name/logo in the SPONSORS section *(optional)* |
 | 🏢 Corporate Sponsor | Contact us | Logo on README & website, direct feedback channel |
 
-[![Donate $5](https://img.shields.io/badge/Sponsor-$5_Coffee-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=thegioithu2@gmail.com&item_name=Sponsor+ABrush+Development&amount=5.00)
-[![Donate $10](https://img.shields.io/badge/Sponsor-$10_Toolmaker-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=thegioithu2@gmail.com&item_name=Sponsor+ABrush+Development&amount=10.00)
-[![Donate Custom Amount](https://img.shields.io/badge/Sponsor-Custom_Amount-orange.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=thegioithu2@gmail.com&item_name=Sponsor+ABrush+Development)
+**Sponsor via PayPal** — click a button, or use the plain links below if the buttons don't load on your network:
+
+[![Sponsor $5](https://img.shields.io/badge/PayPal-Sponsor_$5-00457C.svg?logo=paypal)](https://www.paypal.com/donate/?business=thegioithu2%40gmail.com&item_name=Sponsor+ABrush+Development&currency_code=USD&amount=5)
+[![Sponsor Custom Amount](https://img.shields.io/badge/PayPal-Custom_Amount-orange.svg?logo=paypal)](https://www.paypal.com/donate/?business=thegioithu2%40gmail.com&item_name=Sponsor+ABrush+Development&currency_code=USD)
+
+*   Direct link ($5): `https://www.paypal.com/donate/?business=thegioithu2%40gmail.com&item_name=Sponsor+ABrush+Development&currency_code=USD&amount=5`
+*   Direct link (custom amount): `https://www.paypal.com/donate/?business=thegioithu2%40gmail.com&item_name=Sponsor+ABrush+Development&currency_code=USD`
+*   Or send directly in the PayPal app to: **thegioithu2@gmail.com** (choose *"Sending to a friend"* → note: `ABrush`)
 
 For corporate sponsorships, partnership inquiries, or invoiced contributions, contact us at **thegioithu2@gmail.com**.
 
@@ -144,18 +150,22 @@ Các công cụ điêu khắc 3D chuyên nghiệp thường có giá hàng trăm
 *   📦 Chứng chỉ ký ứng dụng (code signing), hạ tầng build và chi phí phân phối
 *   📚 Tài liệu, video hướng dẫn và hỗ trợ cộng đồng
 
-**Các hình thức tài trợ:**
+**Bao nhiêu? Chỉ cần $5.** Nếu bạn đang sử dụng ABrush, một khoản tài trợ $5 (một lần duy nhất) là tất cả những gì chúng tôi mong nhận. Các mức đóng góp lớn hơn luôn được hoan nghênh nhưng hoàn toàn không bắt buộc.
 
 | Hạng | Mức gợi ý | Ghi nhận |
 |---|---|---|
-| ☕ Mời Cà Phê | $5 (một lần) | Lời cảm ơn chân thành từ đội ngũ |
-| 🛠️ Người Đồng Hành | $10 (một lần) | Ghi tên trong ghi chú phát hành *(tùy chọn)* |
+| ☕ **Nhà Tài Trợ Tiêu Chuẩn** (khuyến nghị) | **$5 (một lần)** | Lời cảm ơn chân thành từ đội ngũ |
 | 🚀 Nhà Bảo Trợ | Mức tùy chọn | Tên/logo trong mục SPONSORS *(tùy chọn)* |
 | 🏢 Doanh Nghiệp Tài Trợ | Liên hệ | Logo trên README & website, kênh phản hồi trực tiếp |
 
-[![Donate $5](https://img.shields.io/badge/T%C3%A0i_Tr%E1%BB%A3-$5_C%C3%A0_Ph%C3%AA-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=thegioithu2@gmail.com&item_name=Sponsor+ABrush+Development&amount=5.00)
-[![Donate $10](https://img.shields.io/badge/T%C3%A0i_Tr%E1%BB%A3-$10_%C4%90%E1%BB%93ng_H%C3%A0nh-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=thegioithu2@gmail.com&item_name=Sponsor+ABrush+Development&amount=10.00)
-[![Donate Tùy Chọn](https://img.shields.io/badge/T%C3%A0i_Tr%E1%BB%A3-M%E1%BB%A9c_T%C3%B9y_Ch%E1%BB%8Dn-orange.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=thegioithu2@gmail.com&item_name=Sponsor+ABrush+Development)
+**Tài trợ qua PayPal** — bấm nút bên dưới, hoặc dùng link chữ dự phòng nếu nút không hiển thị trên mạng của bạn:
+
+[![Tài Trợ $5](https://img.shields.io/badge/PayPal-T%C3%A0i_Tr%E1%BB%A3_$5-00457C.svg?logo=paypal)](https://www.paypal.com/donate/?business=thegioithu2%40gmail.com&item_name=Sponsor+ABrush+Development&currency_code=USD&amount=5)
+[![Tài Trợ Tùy Chọn](https://img.shields.io/badge/PayPal-M%E1%BB%A9c_T%C3%B9y_Ch%E1%BB%8Dn-orange.svg?logo=paypal)](https://www.paypal.com/donate/?business=thegioithu2%40gmail.com&item_name=Sponsor+ABrush+Development&currency_code=USD)
+
+*   Link trực tiếp ($5): `https://www.paypal.com/donate/?business=thegioithu2%40gmail.com&item_name=Sponsor+ABrush+Development&currency_code=USD&amount=5`
+*   Link trực tiếp (mức tùy chọn): `https://www.paypal.com/donate/?business=thegioithu2%40gmail.com&item_name=Sponsor+ABrush+Development&currency_code=USD`
+*   Hoặc gửi trực tiếp trong ứng dụng PayPal đến: **thegioithu2@gmail.com** (chọn *"Gửi cho bạn bè"* → ghi chú: `ABrush`)
 
 Đối với tài trợ doanh nghiệp, hợp tác thương hiệu, hoặc đóng góp cần hóa đơn/chứng từ, vui lòng liên hệ: **thegioithu2@gmail.com**.
 
