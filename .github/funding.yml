@@ -1,0 +1,4 @@
+# GitHub Funding configuration file
+# Ref: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+
+custom: ["https://www.paypal.com/donate/?business=thegioithu2%40gmail.com&item_name=Sponsor+ABrush+Development&currency_code=USD"]
