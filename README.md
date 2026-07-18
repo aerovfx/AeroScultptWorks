@@ -32,6 +32,15 @@ ABrush phù hợp cho quá trình dựng hình high-poly, tạo khối hữu cơ
   <img src="aero-sculpt/aero-sculpt-assets/screenshot2.png" width="48%" alt="Giao diện công cụ của ABrush">
 </p>
 
+<p align="center">
+  <img src="aero-sculpt/aero-sculpt-assets/screenshot3.png" width="48%" alt="Ref Board với tạo mô hình 3D từ ảnh tham chiếu">
+  <img src="aero-sculpt/aero-sculpt-assets/screenshot4.png" width="48%" alt="Chế độ Paint và quản lý Layer trên Ref Board">
+</p>
+
+<p align="center">
+  <img src="aero-sculpt/aero-sculpt-assets/screenshot5.png" width="96%" alt="Không gian làm việc điêu khắc với hệ thống SubTool và cọ">
+</p>
+
 ## Tính năng nổi bật
 
 - **Sculpt high-poly:** tạo hình hữu cơ và chi tiết bề mặt trên lưới có mật độ cao.
@@ -49,8 +58,9 @@ Phiên bản hiện tại: **ABrush 0.9.0**
 
 | Hệ điều hành | Kiến trúc | Bộ cài |
 | --- | --- | --- |
-| macOS | Apple Silicon (ARM64) | [Tải ABrush cho macOS (.dmg)](https://github.com/aerovfx/AeroScultptWorks/raw/refs/heads/main/dist/ABrush-0.9.0-4c96cce-macos-arm64.dmg) |
-| Windows | 64-bit (x86_64) | [Tải ABrush cho Windows (.msi)](https://github.com/aerovfx/AeroScultptWorks/raw/refs/heads/main/dist/windows/ABrush-0.9.0-4c96cce-win64.msi) |
+| macOS | Apple Silicon (ARM64) | [Tải ABrush cho macOS (.dmg)](https://github.com/aerovfx/AeroScultptWorks/raw/refs/heads/main/dist/ABrush-0.9.0-4c96cce-dirty-macos-arm64.dmg) |
+| Windows | 64-bit (x86_64) | [Tải ABrush cho Windows (.msi)](https://github.com/aerovfx/AeroScultptWorks/raw/refs/heads/main/dist/windows/ABrush-0.9.0-4c96cce-dirty-win64.msi) |
+| Windows | 64-bit (x86_64) — bản chạy trực tiếp | [Tải ABrush cho Windows (.exe)](https://github.com/aerovfx/AeroScultptWorks/raw/refs/heads/main/dist/windows/abrush.exe) |
 
 ### macOS
 
