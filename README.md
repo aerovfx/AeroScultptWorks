@@ -1,116 +1,98 @@
-# <img src="aero-sculpt/aero-sculpt-assets/logo.jpg" width="40" height="40" align="center"> AeroSculpt (ABrush)
-
-*Read this in: [English](#english) | [Tiếng Việt](#tiếng-việt)*
-
----
-
-## English
-
-AeroSculpt (codename ABrush) is a next-generation 3D sculpting application, written entirely in Rust. It is designed to deliver superior performance, smooth operation, and a minimalist interface to free your creativity from heavy, cumbersome tools.
-
-This project is an effort to create an exclusive, cross-platform (Desktop App, Mobile App) sculpting tool that runs smoothly without requiring highly demanding system resources.
-
-> **💡 Free while in development.**
-> ABrush is **100% free to download and use** throughout its entire development period. There are no locked features, no trials, and no ads.
-
-### 📸 App Interface
-
 <p align="center">
-  <img src="aero-sculpt/aero-sculpt-assets/screenshot1.png" width="45%" />
-  <img src="aero-sculpt/aero-sculpt-assets/screenshot2.png" width="45%" />
+  <img src="aero-sculpt/aero-sculpt-assets/logo.jpg" width="96" height="96" alt="ABrush logo">
 </p>
 
-### 📁 Project Structure
-
-*   **`aero-sculpt/aero-sculpt-docs/`**: Contains all documentation, usage instructions, and installation guides.
-    *   [Installation Guide (INSTALLATION.md)](aero-sculpt/aero-sculpt-docs/INSTALLATION.md)
-    *   [Basic Usage (USAGE.md)](aero-sculpt/aero-sculpt-docs/USAGE.md)
-    *   [Shortcuts System (SHORTCUTS.md)](aero-sculpt/aero-sculpt-docs/SHORTCUTS.md)
-    *   [Development Roadmap (ROADMAP.md)](ROADMAP.md)
-*   **`aero-sculpt/aero-sculpt-assets/`**: Contains resources, images, icons, and MatCaps for the app.
-*   **`aero-sculpt/aero-sculpt-examples/`**: Sample `.obj` project files for reference.
-*   **`aero-sculpt/aero-sculpt-sdk/`**: Software Development Kit for third-party apps or plugins.
-*   **`aero-sculpt/aero-sculpt-api/`**: Integrated API documentation.
-*   **`aero-sculpt/abrush-mcp/`**: Model Context Protocol integration directory.
-
-### 🗺️ Development Roadmap Summary
-*   **Phase 1 (Current)**: Core sculpting engine, DynaMesh, and essential UI on Desktop.
-*   **Phase 2**: Native `.abr` format, new 3D export options (STL/GLB), Mobile App optimization, and deep integration with the **Pixibox.ai** 3D generation workflow.
-*   **Phase 3**: AI Integration via MCP (Claude/Codex) and Plugin SDK.
-*   **Phase 4**: WebAssembly (WASM) browser version and Real-time PBR Rendering.
-*(See full details in [ROADMAP.md](ROADMAP.md))*
-
-### 🚀 Key Features & Core Philosophy
-*   **Ultra-Lightweight Engine**: Optimized with Rust, ABrush runs smoothly on lower-end hardware while handling millions of polygons without lag.
-*   **High-Poly Sculpting Focus**: Designed primarily for generating ultra-detailed high-poly meshes, giving you the freedom to sculpt organic shapes, intricate textures, and complex character designs effortlessly.
-*   **Manual Retopology for Low-Poly**: Streamlined tools to help artists perform manual retopology over high-poly sculpts, creating clean, game-ready low-poly meshes with perfect edge flow.
-*   **DynaMesh (Voxel Remesh)**: Reconstruct 3D meshes with a single action.
-*   **Sculptris Pro**: Smart sculpting that automatically increases detail at the brush location.
-*   **Polygroup**: Easily manage different parts by color.
-*   **Wacom / Drawing Tablet Support**: Smooth stylus pressure recognition.
-
----
-
-*Pick up your stylus and start sculpting amazing 3D artworks with AeroSculpt today!*
-
----
-
-## Tiếng Việt
-
-AeroSculpt (tên mã ABrush) là một ứng dụng điêu khắc 3D thế hệ mới, được viết hoàn toàn bằng ngôn ngữ Rust. Nó được thiết kế nhằm mang lại hiệu năng siêu việt, mượt mà và giao diện tối giản để giải phóng sự sáng tạo của bạn khỏi những công cụ nặng nề.
-
-Dự án này là nỗ lực tạo ra một công cụ điêu khắc độc quyền, hoạt động trơn tru đa nền tảng (Desktop App, Mobile App) mà không đòi hỏi tài nguyên hệ thống quá khắt khe.
-
-> **💡 Miễn phí trong suốt quá trình phát triển.**
-> ABrush **hoàn toàn miễn phí để tải về và sử dụng** trong toàn bộ giai đoạn phát triển. Không khóa tính năng, không bản dùng thử, không quảng cáo.
-
-### 📸 Giao Diện Ứng Dụng
+<h1 align="center">ABrush</h1>
 
 <p align="center">
-  <img src="aero-sculpt/aero-sculpt-assets/screenshot1.png" width="45%" />
-  <img src="aero-sculpt/aero-sculpt-assets/screenshot2.png" width="45%" />
+  <strong>Phần mềm điêu khắc 3D nhẹ, nhanh và trực quan.</strong><br>
+  Tập trung vào trải nghiệm sculpt tự nhiên để bạn dành nhiều thời gian hơn cho sáng tạo.
 </p>
 
-### 📁 Cấu Trúc Dự Án
-
-*   **`aero-sculpt/aero-sculpt-docs/`**: Chứa toàn bộ tài liệu, hướng dẫn sử dụng và cài đặt ứng dụng.
-    *   [Hướng Dẫn Cài Đặt (INSTALLATION.md)](aero-sculpt/aero-sculpt-docs/INSTALLATION.md)
-    *   [Hướng Dẫn Sử Dụng Cơ Bản (USAGE.md)](aero-sculpt/aero-sculpt-docs/USAGE.md)
-    *   [Hệ Thống Phím Tắt (SHORTCUTS.md)](aero-sculpt/aero-sculpt-docs/SHORTCUTS.md)
-    *   [Lộ Trình Phát Triển (ROADMAP.md)](ROADMAP.md)
-*   **`aero-sculpt/aero-sculpt-assets/`**: Chứa các tài nguyên, hình ảnh, icon và MatCap cho ứng dụng.
-*   **`aero-sculpt/aero-sculpt-examples/`**: Các file dự án mẫu `.obj` để người dùng tham khảo.
-*   **`aero-sculpt/aero-sculpt-sdk/`**: Bộ công cụ phát triển phần mềm cho các ứng dụng hoặc plugin bên thứ 3.
-*   **`aero-sculpt/aero-sculpt-api/`**: Tài liệu API tích hợp.
-*   **`aero-sculpt/abrush-mcp/`**: Thư mục dành riêng cho việc tích hợp Model Context Protocol (MCP).
-
-### 🗺️ Tóm Tắt Lộ Trình Phát Triển
-*   **Giai đoạn 1 (Hiện tại)**: Hoàn thiện engine lõi, DynaMesh và giao diện cơ bản trên Desktop.
-*   **Giai đoạn 2**: Ra mắt định dạng gốc `.abr`, mở rộng xuất file in 3D (STL/GLB), tối ưu hóa Mobile App, và tích hợp sâu với quy trình Gen 3D của **Pixibox.ai**.
-*   **Giai đoạn 3**: Tích hợp AI qua giao thức MCP (Claude/Codex) và phát hành Plugin SDK.
-*   **Giai đoạn 4**: Hỗ trợ nền tảng Web qua WebAssembly (WASM) và Render PBR chân thực.
-*(Xem chi tiết đầy đủ tại [ROADMAP.md](ROADMAP.md))*
-
-### 🚀 Tính Năng Nổi Bật & Triết Lý Cốt Lõi
-*   **Siêu Nhẹ & Tối Ưu (Ultra-Lightweight)**: Được lập trình bằng Rust, ABrush hoạt động cực kỳ mượt mà ngay cả trên phần cứng giới hạn, xử lý hàng triệu đa giác (polygons) mà không giật lag.
-*   **Tập Trung Sculpt High-Poly**: Thiết kế chuyên biệt để tạo ra các mô hình High-Poly cực kỳ chi tiết. Ứng dụng cung cấp sự tự do tuyệt đối để điêu khắc bề mặt hữu cơ, nếp nhăn và nhân vật phức tạp.
-*   **Hỗ Trợ Retopo Thủ Công (Low-Poly)**: Quy trình làm việc được thiết kế để bạn có thể dễ dàng thực hiện Retopology (vẽ lại lưới) thủ công trên bề mặt mô hình High-Poly, từ đó tạo ra các mô hình Low-Poly sạch sẽ, tối ưu hoàn hảo cho Game và Animation.
-*   **DynaMesh (Voxel Remesh)**: Tái cấu trúc lưới 3D chỉ với một thao tác.
-*   **Sculptris Pro**: Điêu khắc thông minh, tự động tăng chi tiết tại vị trí cọ vẽ.
-*   **Polygroup**: Quản lý các bộ phận theo màu sắc dễ dàng.
-*   **Hỗ trợ Wacom / Bảng vẽ**: Nhận diện áp lực bút cảm ứng mượt mà.
+<p align="center">
+  <a href="#tải-và-cài-đặt">Tải ABrush</a> ·
+  <a href="aero-sculpt/aero-sculpt-docs/USAGE.md">Hướng dẫn sử dụng</a> ·
+  <a href="aero-sculpt/ROADMAP.md">Lộ trình phát triển</a>
+</p>
 
 ---
 
-*Hãy cầm bút cảm ứng lên và bắt đầu nặn ra những tác phẩm nghệ thuật 3D tuyệt vời cùng AeroSculpt!*
-Downloads
+## Giới thiệu
 
-Latest Stable
+**ABrush** (tên dự án: **AeroSculpt**) là phần mềm điêu khắc 3D dành cho nghệ sĩ, nhà thiết kế nhân vật và người sáng tạo nội dung số. Ứng dụng được xây dựng bằng Rust với mục tiêu mang đến hiệu năng tốt, phản hồi nhanh và giao diện gọn gàng trên máy tính cá nhân.
 
-v0.9.0
+ABrush phù hợp cho quá trình dựng hình high-poly, tạo khối hữu cơ, thêm chi tiết bề mặt và chuẩn bị lưới low-poly bằng retopology thủ công. Phần mềm hỗ trợ cả chuột lẫn bảng vẽ có nhận diện lực nhấn.
 
-macOS
-Windows
+> **Miễn phí trong giai đoạn phát triển:** ABrush hiện được cung cấp miễn phí, không quảng cáo, không giới hạn thời gian dùng thử và không khóa tính năng.
 
+## Giao diện
 
-Nightly Builds
+<p align="center">
+  <img src="aero-sculpt/aero-sculpt-assets/screenshot1.png" width="48%" alt="Giao diện điêu khắc của ABrush">
+  <img src="aero-sculpt/aero-sculpt-assets/screenshot2.png" width="48%" alt="Giao diện công cụ của ABrush">
+</p>
+
+## Tính năng nổi bật
+
+- **Sculpt high-poly:** tạo hình hữu cơ và chi tiết bề mặt trên lưới có mật độ cao.
+- **DynaMesh / Voxel Remesh:** tái tạo lưới nhanh để tiếp tục điêu khắc mà không bị giới hạn bởi topology ban đầu.
+- **Sculptris Pro:** tự động bổ sung mật độ lưới tại khu vực đang thao tác.
+- **Polygroup:** phân nhóm và quản lý từng phần của mô hình bằng màu sắc.
+- **Retopology thủ công:** tạo lưới low-poly sạch cho game, animation và các quy trình 3D khác.
+- **Hơn 20 loại cọ và 21 MatCap:** chuyển đổi nhanh bằng Pie Menu ngay tại vị trí con trỏ.
+- **Hỗ trợ bảng vẽ:** nhận diện lực nhấn từ bút Wacom và các thiết bị tương thích.
+- **Nhập và xuất OBJ:** hỗ trợ dữ liệu vertex color để giữ lại màu và Polygroup.
+
+## Tải và cài đặt
+
+Phiên bản hiện tại: **ABrush 0.9.0**
+
+| Hệ điều hành | Kiến trúc | Bộ cài |
+| --- | --- | --- |
+| macOS | Apple Silicon (ARM64) | [Tải ABrush cho macOS (.dmg)](https://github.com/aerovfx/AeroScultptWorks/raw/refs/heads/main/dist/ABrush-0.9.0-4c96cce-macos-arm64.dmg) |
+| Windows | 64-bit (x86_64) | [Tải ABrush cho Windows (.msi)](https://github.com/aerovfx/AeroScultptWorks/raw/refs/heads/main/dist/windows/ABrush-0.9.0-4c96cce-win64.msi) |
+
+### macOS
+
+1. Tải và mở file `.dmg`.
+2. Kéo **ABrush** vào thư mục **Applications**.
+3. Mở ABrush từ Applications.
+
+Nếu macOS chặn ứng dụng ở lần mở đầu tiên, vào **System Settings → Privacy & Security**, kiểm tra đúng tên ứng dụng rồi chọn **Open Anyway**.
+
+### Windows
+
+1. Tải và chạy file `.msi`.
+2. Làm theo các bước trong trình cài đặt.
+3. Mở ABrush từ Start Menu hoặc shortcut trên Desktop.
+
+Nếu Windows SmartScreen hiển thị cảnh báo, hãy kiểm tra đúng tên và nguồn tải của bộ cài trước khi chọn **More info → Run anyway**.
+
+Xem thêm [hướng dẫn cài đặt đầy đủ](aero-sculpt/aero-sculpt-docs/INSTALLATION.md).
+
+## Bắt đầu nhanh
+
+- Dùng chuột hoặc bút để điêu khắc trực tiếp trên mô hình.
+- Nhấn `Space` hoặc `Tab` để mở Pie Menu và đổi cọ nhanh.
+- Dùng `Ctrl + Z` để hoàn tác và `Ctrl + Y` để làm lại.
+- Tham khảo [hướng dẫn sử dụng](aero-sculpt/aero-sculpt-docs/USAGE.md) và [danh sách phím tắt](aero-sculpt/aero-sculpt-docs/SHORTCUTS.md) để làm quen với quy trình làm việc.
+
+## Tài liệu
+
+- [Hướng dẫn cài đặt](aero-sculpt/aero-sculpt-docs/INSTALLATION.md)
+- [Hướng dẫn sử dụng](aero-sculpt/aero-sculpt-docs/USAGE.md)
+- [Phím tắt và thao tác](aero-sculpt/aero-sculpt-docs/SHORTCUTS.md)
+- [Định dạng file hỗ trợ](aero-sculpt/aero-sculpt-docs/abrush_file_format/FORMATS.md)
+- [Lộ trình phát triển](aero-sculpt/ROADMAP.md)
+- [Tài liệu API](aero-sculpt/aero-sculpt-api/README.md)
+- [Tích hợp MCP](aero-sculpt/abrush-mcp/README.md)
+
+## Trạng thái dự án
+
+ABrush đang trong quá trình phát triển tích cực. Một số tính năng, định dạng file và giao diện có thể thay đổi giữa các phiên bản. Bạn nên sao lưu mô hình gốc trước khi sử dụng trong dự án quan trọng.
+
+## Giấy phép
+
+ABrush là phần mềm độc quyền, mã nguồn đóng. Việc tải xuống và sử dụng phần mềm đồng nghĩa với việc bạn đồng ý với [Thỏa thuận cấp phép người dùng cuối (EULA)](aero-sculpt/LICENSE.md).
+
+Copyright © 2026 Đặng Việt Chung / [Aerovfx.com](https://aerovfx.com). All rights reserved.
